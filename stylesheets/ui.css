@@ -1,0 +1,21 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,arial,\5b8b\4f53;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+em,i{font-style:normal;}
+fieldset,img{border:0;}
+ul,ol{list-style:none;}
+a{text-decoration:none;outline:none;}
+a:hover{color:#f60;text-decoration:underline;}
+.clear{clear:both;display:block;height:1px; line-height:0px;overflow:hidden;font-size:0;}
+button,input,select,textarea{font-size:100%;outline:none}
+table{border-collapse:collapse;border-spacing:0;}
+.hide{display:none;}
+.l{float:left;}
+.r{float:right;}
+.cf:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.cf{*zoom:1;}
+
+/* */
+.alert{position:relative;border:5px solid #B2B2B2;}
+.alert .alert-title{background:#F3F3F2;height:32px;line-height:32px;font-size:14px;font-weight:700;text-indent:20px;}
+.alert .close-alert-box{position:absolute;right:20px;top:8px;}
