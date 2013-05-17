@@ -33,6 +33,7 @@
 </div>
 <div class="container">
 <img id="chrome" class="chrome" style="margin:20px auto;display:block;width:512px;" src="http://www.bootcss.com/assets/img/examples/browser-icon-chrome.png" /> 
+<img id="firefox" class="chrome" style="margin:20px auto;display:block;width:512px;" src="http://www.bootcss.com/assets/img/examples/browser-icon-firefox.png" /> 
 </div>
 <style>
 .chrome.over{-webkit-transition:700ms all ease-in;-webkit-transform:rotate(720deg);}
@@ -44,6 +45,14 @@ document.getElementById("chrome").onmouseover = function(){
   this.className += " over";
 }
 document.getElementById("chrome").onmouseout = function(){
+  this.className = "chrome"
+  this.className += " out";
+}
+document.getElementById("firefox").onmouseover = function(){
+  this.className = "chrome";
+  this.className += " over";
+}
+document.getElementById("firefox").onmouseout = function(){
   this.className = "chrome"
   this.className += " out";
 }
