@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="apple-touch-icon" sizes="57x57" href="index/images/57.jpg">
+	<link rel="apple-touch-icon" sizes="72x72" href="index/images/72.jpg">
+	<link data-logo="" rel="apple-touch-icon" sizes="114x114" href="index/images/114.jpg">  
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="-1">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />        
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" /> 
+
+	<title>TCL S720T-有爱就要么么哒！</title>
+	<link rel="stylesheet" type="text/css" href="./index/default.css">
+	<link rel="stylesheet" type="text/css" href="./index/default.date.css">
+	<link rel="stylesheet" type="text/css" href="./index/default.time.css">
+	<link rel="stylesheet" type="text/css" href="./index/main.css">
+
+	<script>
+	var imgUrl = 'http://www.tclmobile.com.cn/wap/Kiss/index/images/logo.jpg';
+	var lineLink = 'http://www.tclmobile.com.cn/wap/Kiss';
+	var descContent = "携爱来袭，3月28日10点，TCL手机携手苏宁易购及中国移动手机商城首发预约！";
+	var shareTitle = 'TCL S720T-有爱就要么么哒！';
+	var appid = '';
+
+	function shareFriend() {
+		WeixinJSBridge.invoke('sendAppMessage',{
+			"appid": appid,
+			"img_url": imgUrl,
+			"img_width": "200",
+			"img_height": "200",
+			"link": lineLink,
+			"desc": descContent,
+			"title": shareTitle
+		}, function(res) {
+			//_report('send_msg', res.err_msg);
+		})
+	}
+	function shareTimeline() {
+		WeixinJSBridge.invoke('shareTimeline',{
+			"img_url": imgUrl,
+			"img_width": "200",
+			"img_height": "200",
+			"link": lineLink,
+			"desc": descContent,
+			"title": shareTitle
+		}, function(res) {
+			   //_report('timeline', res.err_msg);
+		});
+	}
+	function shareWeibo() {
+		WeixinJSBridge.invoke('shareWeibo',{
+			"content": descContent,
+			"url": lineLink,
+		}, function(res) {
+			//_report('weibo', res.err_msg);
+		});
+	}
+	// 当微信内置浏览器完成内部初始化后会触发WeixinJSBridgeReady事件。
+	document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+		// 发送给好友
+		WeixinJSBridge.on('menu:share:appmessage', function(argv){
+			shareFriend();
+		});
+		// 分享到朋友圈
+		WeixinJSBridge.on('menu:share:timeline', function(argv){
+			shareTimeline();
+		});
+		// 分享到微博
+		WeixinJSBridge.on('menu:share:weibo', function(argv){
+			shareWeibo();
+		});
+	}, false);
+
+	document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+	WeixinJSBridge.call('hideToolbar');
+	});
+	</script>
+
+	<!--浏览器兼容HTML5标签-->
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="/js/admin/common/html5.js"></script>
+	<![endif]-->
+	<!--移动端版本兼容 -->
+	<script type="text/javascript">
+		var phoneWidth =  parseInt(window.screen.width);
+		var phoneScale = phoneWidth/640;
+		var ua = navigator.userAgent;
+		if (/Android (\d+\.\d+)/.test(ua)){
+			var version = parseFloat(RegExp.$1);
+			if(version>2.3){
+				document.write('<meta name="viewport" content="width=640, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+			}else{
+				document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+			}
+		} else {
+			document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+		}
+	</script><meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">
+	<!--移动端版本兼容 end -->
+	<script>SYS_SITE_ID = 1</script>
+</head>
+
+<body youdao="bind">
+<input type="hidden" value="271" id="activeId"><!-- 活动id -->
+<section class="p-index" style="height: 596px;">
+	<!--index 封面-->
+			<section data-page="1" class="m-page m-page1 show" data-id="3310" data-type="info_pic2" style="height: 960px;">
+				<div class="m-img m-img01" style="background:url(index/images/001.jpg) center no-repeat; background-size:cover;">
+									</div>
+				<img data-share-logo="" src="index/images/001.jpg" style="display:none;">
+			</section>
+			<!--index 封面 end-->
+									<!--全屏大图-->
+			<section data-page="2" class="m-page m-page2 hide" data-id="3311" data-type="info_nomore" style="height: 596px; top: 596px;">
+				<div class="m-img m-img01 " data-bk="index/images/002.jpg" style="background:url(index/images/002.jpg) center no-repeat; background-size:cover;">
+				</div>
+												
+  </section>
+			<!--全屏大图end-->
+									<!--全屏大图-->
+			<section data-page="2" class="m-page m-page2 hide" data-id="3336" data-type="info_nomore" style="height: 596px;">
+				<div class="m-img m-img01 " data-bk="index/images/003.jpg" style="background:url(index/images/003.jpg) center no-repeat; background-size:cover;">
+				</div>
+											</section>
+			<!--全屏大图end-->
+									<!--小图文组件-->
+			<section data-page="3" class="m-page m-page3 hide" data-id="3312" data-type="info_more" style="height: 596px;">
+				<div class="plate plate01">
+					<div class="m-img m-img02 lazy-bk" data-bk="index/images/004.jpg" style="background-image: url(index/load.gif); background-color: rgb(221, 221, 221); background-size: 120px; background-position: 50% 50%; background-repeat: no-repeat no-repeat;">
+					</div>
+									</div>
+				<div class="plate plate02">
+					<div class="m-img m-img02 lazy-bk" data-bk="index/images/005.jpg" style="background-image: url(index/load.gif); background-color: rgb(221, 221, 221); background-size: 120px; background-position: 50% 50%; background-repeat: no-repeat no-repeat;">
+					</div>
+									</div>
+			</section>
+						<!--小图文组件-->	
+                        
+										
+								<!--小图文组件-->
+			<section data-page="3" class="m-page m-page3 hide" data-id="3312" data-type="info_more" style="height: 596px;">
+				<div class="plate plate01">
+					<div class="m-img m-img02 lazy-bk" data-bk="index/images/007.jpg" style="background-image: url(index/load.gif); background-color: rgb(221, 221, 221); background-size: 120px; background-position: 50% 50%; background-repeat: no-repeat no-repeat;">
+					</div>
+									</div>
+				<div class="plate plate02">
+					<div class="m-img m-img02 lazy-bk" data-bk="index/images/006.jpg" style="background-image: url(index/load.gif); background-color: rgb(221, 221, 221); background-size: 120px; background-position: 50% 50%; background-repeat: no-repeat no-repeat;">
+					</div>
+									</div>
+			</section>
+						<!--小图文组件-->	
+                        <!--全屏大图-->
+			<section data-page="3" class="m-page m-page3 hide" data-id="3336" data-type="info_nomore" style="height: 596px;">
+				<div class="m-img m-img01 " data-bk="index/images/008.jpg" style="background:url(index/images/008.jpg) center no-repeat; background-size:cover;">
+				</div>
+											</section>
+			<!--全屏大图end-->
+                                    <!--全屏大图-->
+			<section data-page="3" class="m-page m-page3 hide" data-id="3336" data-type="info_nomore" style="height: 596px;">
+				<div class="m-img m-img01 " data-bk="index/images/009.jpg" style="background:url(index/images/009.jpg) center no-repeat; background-size:cover;">
+				</div>
+											</section>
+			<!--全屏大图end-->
+                                    <!--全屏大图-->
+			<section data-page="3" class="m-page m-page3 hide" data-id="3336" data-type="info_nomore" style="height: 596px;">
+				<div class="m-img m-img01 " data-bk="index/images/010.jpg" style="background:url(index/images/010.jpg) center no-repeat; background-size:cover;">
+				</div>
+											</section>
+			<!--全屏大图end-->
+            								<!--小图文组件-->
+			<section data-page="3" class="m-page m-page3 hide" data-id="3312" data-type="info_more" style="height: 596px;">
+				<div class="plate plate01">
+					<div class="m-img m-img02 lazy-bk" data-bk="index/images/011.jpg" style="background-image: url(index/load.gif); background-color: rgb(221, 221, 221); background-size: 120px; background-position: 50% 50%; background-repeat: no-repeat no-repeat;">
+					</div>
+									</div>
+				<div class="plate plate02">
+					<div class="m-img m-img02 lazy-bk" data-bk="index/images/012.jpg" style="background-image: url(index/load.gif); background-color: rgb(221, 221, 221); background-size: 120px; background-position: 50% 50%; background-repeat: no-repeat no-repeat;">
+					</div>
+									</div>
+			</section>
+						<!--小图文组件-->	
+
+                        <!--sub05 介绍-->
+			<section data-page="6" class="m-page m-page6 hide" data-id="3315" data-type="multi_contact" style="height: 596px;">
+				<div class="u-img">
+					<div class="imgSlider" style="position: relative; left: 0px; right: 0px;">
+											<input type="hidden" value="index/banner.jpg">
+
+				</div>
+				<div class="m-intro">
+                
+					<h3>抢购 TCL S720T</h3>
+					<div class="m-txt m-txt02 txt">
+						<div class="wtxt">
+							<p align="center">携爱来袭，3月28日 10：00 首发预约！</p>
+						</div>
+						<span class="expand css_sprite01"></span>
+					</div>
+
+				  <div class="btn">
+<!--                    <p class="tel btn-boder-color"><a href="http://www.js.10086.cn/mall/"><span class="css_sprite01"></span>中国移动网上商城</a></p>
+					<p class="time"><a href="http://www.suning.com/"><span class="css_sprite01"></span>苏宁易购</a></p>-->
+                    <p><a href="http://sale.suning.com/images/advertise/yam/memeda/index.html?utm_source=pl-00006&utm_medium=memeda1&utm_campaign=pphd" target="_blank"><img src="index/images/sn.jpg"/></a></p>
+                    <p><a><img src="index/images/yd.jpg"/></a></p>
+						
+					</div> 
+				</div>
+			</section>
+			<!--sub05 介绍 end-->		
+	
+		
+	<!--pageLoading-->
+	<section class="pageLoading">
+		<img src="./index/load.gif" alt="loading">
+	</section>
+	<!--pageLoading end-->
+	
+</section>
+
+<!--脚本加载-->
+
+<script type="text/javascript" src="./index/html5.js"></script>
+<script type="text/javascript" src="./index/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="./index/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="./index/txt_scroll.js"></script>
+<script type="text/javascript" src="./index/yl3d.js"></script>
+<script type="text/javascript" src="./index/1_picker.js"></script>
+<script type="text/javascript" src="./index/2_picker.date.js"></script>
+<script type="text/javascript" src="./index/3_picker.time.js"></script>
+<script type="text/javascript" src="./index/9_slidepic.js"></script>
+<script type="text/javascript" src="./index/99_main.js"></script>
+<script type="text/javascript" src="./index/wxm-core176ed4.js"></script>
+<span style="display: none;">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F0af9847f3811f98f494726dc210c4f96' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</span>
+<!--脚本加载 end-->
+
+</body></html>
