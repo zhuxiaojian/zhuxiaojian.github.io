@@ -1,4 +1,4 @@
-/*! grunt-demo 2013-12-23 */
+/*! grunt-demo 2014-01-21 */
 /* ===================================================
  * bootstrap-transition.js v2.3.1
  * http://twitter.github.com/bootstrap/javascript.html#transitions
