@@ -1,4 +1,4 @@
-console.log('This would be the main JS file.');
+console.log('This would be the main JS file. ha');
 //     Zepto.js
 //     (c) 2010-2012 Thomas Fuchs
 //     Zepto.js may be freely distributed under the MIT license.
